@@ -1,0 +1,783 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* position: sticky;
+    top:0; */
+}
+
+.navbar_s1 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 15px;
+    top: 0;
+}
+
+.navbar_s1 img {
+    width: 30px;
+    background-color: green;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.nabvar_s2 {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    top: 0;
+    padding: 15px;
+    gap: 30px;
+}
+
+.nabvar_s2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_s3 {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.navbar_s3 img {
+    width: 20px;
+    font-weight: bold;
+
+}
+
+.navbar_s3 button{
+    padding:10px;
+    border-radius: 20px;
+    width:100px;
+    background-color: black;
+   color:white;
+}
+
+.navbar_s3_Amount {
+    border-left: solid gainsboro 2px;
+    height: 20px;
+    padding: 2px;
+}
+
+.navbar_s3_Amount p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar_s4 {
+    margin-top: 10px;
+}
+
+.navbar_s button {
+    padding: 10px;
+    background-color: black;
+    border-radius: 22px;
+    font-size: 15px;
+    color: white;
+    width: 90px;
+}
+
+.navbar_section2 h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.navbar_section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+
+
+}
+
+
+.navbar_section3 p {
+    font-size: 20px;
+
+}
+
+.navbar_section3 p:hover {
+    cursor: pointer;
+    /* background-color: transparent;  
+color:black;
+transition: 1s; */
+    opacity: 5;
+    transition: 3s;
+}
+
+.navbar_section3 p:first-child {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.navbar_section3 i {
+    padding: 5px;
+
+}
+
+.navbar_section4 {
+    width: 57%;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    margin-left: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* All the borders by using the spread properties */
+
+}
+
+.navbar_section4 input {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.navbar_section4 button {
+    background-color: greenyellow;
+    border: none;
+    border-radius: 22px;
+    font-size: 15px;
+    color: black;
+    width: 90px;
+    padding: 10px;
+}
+
+.centerimage {
+    /* margin-left:10%;
+    margin-top:20px; */
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    color: white;
+}
+
+.centerimage img {
+    width: 100%;
+    height: 100%;
+}
+
+.centerimage .centerimage_text {
+    position: absolute;
+    top: 20%;
+    margin-left: 10%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+
+.centerimage_text span {
+    color: black;
+    width: 80px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+    display: inline;
+}
+
+.centerimage_text h1 {
+    font-size: 50px;
+
+}
+
+.centerimage_text h3 {
+    font-size: 25px;
+
+}
+
+.centerimage button {
+    background-color: aliceblue;
+    padding: 17px;
+    border-radius: 25px;
+    width: 100px;
+    margin-top: 10px;
+    border-color: none;
+    font-size: 17px;
+}
+
+.desingerimg_section_title {
+    padding: 40px;
+}
+
+.desingerimg_section {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 20px;
+    background-color: #dfd3ee;
+    justify-content: space-between;
+    width: 80%;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.desingerimg_section_title p {
+    margin-top: 30px;
+    margin-left: 2px;
+}
+
+.desingerimg_section_image {
+    margin-left: 10px;
+}
+
+.desingerimg_section_image img {
+    width: 70%;
+    transform: rotate(-4deg);
+    border-radius: 10px;
+
+}
+
+.desingerimg_section_button button {
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 100%;
+    width: 100px;
+}
+
+/*Treat yourself*/
+
+
+.card_description p {
+    margin-top: 10px;
+}
+
+.card_food {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 90%;
+    margin-top: 15px;
+}
+
+.card_food__img {
+    position: relative;
+}
+
+.card_food__img img {
+    border-radius: 10px;
+    width:100%;
+    height: auto;
+
+}
+
+.card_food_imgHeader {
+    position: absolute;
+    top: 83%;
+    width: 95%;
+    height: 48;
+    color: white;
+    font-weight: bold;
+    left: 4px;
+    background-color: rgba(0, 0, 0, 0.36);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.card_food_imgHeader h1 {
+    font-size: 30px;
+}
+
+.card_description {
+    padding: 4px;
+}
+
+.card_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.card_food_imgtext {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.card_food_imgtext a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.card_food__img .card_travel_img {
+    height:50%;
+    width:100%;
+}
+
+/*chennai*/
+.card_chennai__img {
+    position: relative;
+}
+
+.card_chennai__img img {
+    border-radius: 10px;
+    width:300px;
+    height: auto;
+
+}
+
+.card_chennai {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 15px;
+    gap:4px;
+}
+
+.card_chennai_imgtext {
+    width: 300px;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.card_chennai_imgtext a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card_chennaicontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.card_chennai__img .chennai_review
+{
+    font-size:12px;
+    font-weight:normal;
+}
+.card_chennai__img .card_chennai__button
+{
+    border-radius: 50%;
+    background-color: white;
+    padding:10px;
+    border:none;
+    position: absolute;
+    top:10px;
+    right:25px;
+}
+
+/*Hotel Room*/
+.card_hotel__img {
+    border-radius: 10px;
+   width:420px;
+   height:250px;
+
+}
+.card_hotel {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 15px;
+    gap:14px;
+}
+
+.card_hotelcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.card_hotel__imgtext a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size:20px;
+    text-align: center;
+}
+.card_hotel__imgtext a:hover{
+   text-decoration: underline;
+}
+
+
+.card_hotel__imgtext {
+    width: 370px;
+    padding: 25px;
+    text-align: center;
+   
+}
+.card_hotel__div
+{
+    position:relative;
+}
+
+.card_hotel__div .card_hotel__button
+{
+    border-radius: 50%;
+    background-color: white;
+    padding:10px;
+    border:none;
+    position: absolute;
+    top:10px;
+    right:25px;
+}
+/*Holiday Detsination*/
+
+.card_destination {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 15px;
+    gap:14px;
+}
+
+.card_destinationcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+.card_destination__img  {
+    border-radius: 10px;
+    width:310px;
+    height: auto;
+
+}
+
+.card_destination_imgHeader {
+    position: absolute;
+    top: 83%;
+    width: 95%;
+    height: 48;
+    font-weight: bold;
+    left: 4px;
+    background-color:rgb(0 0 0 / 12%);
+    border-radius: 8px;
+    padding: 5px;
+}
+.card_destination_imgHeader a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:25px;
+    text-align: center;
+}
+.card_destination__img a:hover{
+   text-decoration: underline;
+}
+.card_destination__div
+{
+    position: relative;
+}
+
+/*Wanderr Container*/
+.card_wanderer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+.wander_containertext button
+{
+    background-color: black;
+    padding:15px;
+    border-radius: 25px;
+    width:150px;
+    position:relative;
+    top:20px;
+    color:white;
+}
+.wander_container{
+    width:85%;
+    height:500px;
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+}
+.wander_containerimg
+{
+    width:50%;
+    background-size: cover;
+}
+
+.wander_containerimg img
+{
+    width:70%;
+}
+.wander_containertext
+{
+    width:47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wander_containertext img
+
+  { 
+    width: 30px;
+    background-color: green;
+    border-radius: 20px;
+    padding: 4px;  
+ }
+.wander_tripicon
+{
+    display: flex;
+    padding:5px;
+}
+
+.wander_tripicon p{
+   margin-top:13px;
+   margin-left:10px;
+}
+
+/*Home Rental*/
+
+
+.card_rentalcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+.card_rental__div  {
+    border-radius: 10px;
+    width:310px;
+    height: auto;
+}
+.card_rental {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 15px;
+    gap:14px;
+}
+.card_rental_imgHeader {
+    top: 83%;
+  
+    font-weight: bold;
+    left: 4px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.card_rental_imgHeader a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:15;
+    text-align: center;
+}
+.card_rental_imgHeader a:hover{
+   text-decoration: underline;
+}
+.card_rental__img  {
+    border-radius: 10px;
+    width:100%;
+    height: 100%;
+
+}
+
+
+/*Traveller*/
+.card_ContainerTraveller
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.card_Traveller
+{
+    width: 85%;
+    height: 600px;
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.Traveller_s1
+
+{
+    background-size: cover;
+    width:20%;
+}
+
+.Traveller_s2
+{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-size: cover;
+background-position: cente;
+background-image: url(https://static.tacdn.com/img2/brand/feed/tc_cards_2024_c04.png);
+}
+
+
+/*Footer*/
+.Footercontainer
+{
+    width: 100%;
+    padding-top: 30px;
+    top:20px;
+    background-color:rgb(251, 245, 240);
+    justify-content: center;
+}
+
+.footer_Container1
+{
+    display: flex;
+gap:10px;
+padding: 10px;
+justify-content: center;
+width:85%;
+height:300px;
+}
+.footer_s1,.footer_s2,.footer_s3
+{
+    display: flex;
+    flex-direction: column;
+width:20%;
+height:280px;
+gap:10px;
+}
+.footer_Container2
+{
+    display: flex;
+    gap:10px;
+    padding: 10px;
+    justify-content: center;
+    width:85%;
+}
+.footer_container2 img
+{
+width:20px;
+background-color: green;
+border-radius: 30px;
+height:20px;
+padding:10px;
+}
+.footer_container2{
+    display: flex;
+    padding:10px;
+    width:85%;
+    justify-content: center;
+align-items: center;
+}
+.footer_container2_s1
+{
+    width:80%;
+gap:15px;
+    display: flex;
+}
+.footer_container2_text
+{
+width:55%;
+}
+.footer_container2_text a{
+    padding:10px;
+font-weight: bold;
+}
+
+.footer_container_footertext
+{
+    padding: 8px;
+}
+
+
+.footer_container2__button
+{
+    width:50%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.footer_container2__button button
+{
+width:60px;
+border-radius:10px;
+border-color: #ccc;;
+width:200px;
+background-color: #f8f8f8;
+padding:15px;
+}
+.footer_container3
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer_container3_text
+{
+width:50%
+}
+.footer__container3__info2
+{
+    width:30%;
+    display: flex;
+   justify-content: space-evenly;
+}
+.footer__container3__info2 a
+{
+font-weight:500;
+color:black;
+}
+
+.card_food
+{
+    flex-grow:1;
+    flex-basis:20%;
+}
+
+/*Media queries*/
+/*tab*/
+@media screen and (max-width:800px)
+{
+body{
+    font-size:10px;
+}
+
+}
+
+/*mobile */
+@media screen and (max-width:500px)
+{
+    .card_food
+    {
+       
+        flex-basis:40%;
+    }
+
+}
